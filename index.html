@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>3D Neon Engine | Vor7reX Elite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="mode-1">
+    
+    <div id="boot-screen">
+        <div id="boot-terminal">
+            <div id="boot-log"></div>
+            <div id="boot-bar-container">
+                <div id="boot-bar"></div>
+            </div>
+            <div id="boot-percentage">0%</div>
+        </div>
+    </div>
+
+    <div id="ui" class="glitch-target">
+        System: 3D_Engine_Active<br>
+        User: Vor7reX<br><br>
+        <div class="menu">
+            <button onclick="switchShape('sphere')">[ SPHERE ]</button>
+            <button onclick="switchShape('cube')">[ CUBE ]</button>
+            <button onclick="switchShape('torus')">[ TORUS ]</button>
+            <button onclick="switchShape('pyramid')">[ PYRAMID ]</button>
+            <button onclick="switchShape('cylinder')">[ CYLINDER ]</button>
+            <button onclick="switchShape('dna')">[ DNA_HELIX ]</button>
+<button onclick="switchShape('octahedron')">[ OCTAHEDRON ]</button>
+        </div>
+    </div>
+
+    <div id="ui-top-right" class="ui-extra glitch-target"></div>
+    <div id="ui-bottom-left" class="ui-extra glitch-target"></div>
+    <div id="ui-bottom-right" class="ui-extra glitch-target"></div>
+
+    <div id="mode-switcher">
+        <button class="mode-btn" onclick="setVisualMode(1)">[ MODE_1 ]</button>
+        <button class="mode-btn" onclick="setVisualMode(2)">[ MODE_2 ]</button>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
