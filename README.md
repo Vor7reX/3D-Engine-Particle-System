@@ -12,6 +12,7 @@ Inspired by the mathematical formula discussed by **Tsoding** in the video: [One
 
 https://github.com/user-attachments/assets/2ee248fc-0446-4934-a811-a8f76827f603
 
+[**Try the Demo**](https://vor7rex.github.io/3D-Engine-Particle-System/) <a href="https://pokemondb.net/pokedex/reuniclus"><img src="https://img.pokemondb.net/sprites/black-white/anim/shiny/reuniclus.gif" alt="Reuniclus" height="50" align="center"></a>
 
 ## Features
 - **Core 3D Engine**: Pure perspective projection ($X/Z$, $Y/Z$) without WebGL or Three.js.
