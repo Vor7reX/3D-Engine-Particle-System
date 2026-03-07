@@ -8,7 +8,10 @@ The project implements classic perspective projection to render complex geometri
 
 Inspired by the mathematical formula discussed by **Tsoding** in the video: [One Formula That Demystifies 3D Graphics](https://youtu.be/qjWkNZ0SXfo).
 
-<video src="Assets/Demo.mp4" width="70%" controls></video>
+
+
+https://github.com/user-attachments/assets/2ee248fc-0446-4934-a811-a8f76827f603
+
 
 ## Features
 - **Core 3D Engine**: Pure perspective projection ($X/Z$, $Y/Z$) without WebGL or Three.js.
