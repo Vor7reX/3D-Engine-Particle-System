@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/2ee248fc-0446-4934-a811-a8f76827f603
 ## 📦 Quick Start
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone https://github.com/Vor7reX/3D-Engine-Particle-System
 2. Open the index.html file in any modern browser (Chrome recommended).
 
 
